@@ -1,0 +1,71 @@
+
+
+html,body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.image {
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    margin: 0;
+    right: -100%;
+}
+
+
+.current {
+    transform: translateX(-100%);
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.finished {
+    transform: translateX(-200%);
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+
+#kitty1 {
+    background-image: url("kitty1.jpg");
+}
+
+#kitty2 {
+    background-image: url("kitty2.jpg");
+}
+
+#kitty3 {
+    background-image: url("kitty3.jpg");
+}
+
+#kitty4 {
+    background-image: url("kitty4.jpg");
+}
+
+.button-container {
+    position: absolute;
+    top: 600px;
+    margin: 0;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2000;
+}
+
+.button {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background-color: transparent;
+    margin: 20px;
+    display: inline-block;
+}
+
+.button-current {
+    background-color: white;
+}
