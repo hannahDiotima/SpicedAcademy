@@ -1,0 +1,47 @@
+
+
+#container {
+    height: 30px;
+    width: 100%;
+    border: 1px solid black;
+
+
+}
+
+.coffee {
+    display: inline-block;
+    float: right;
+    margin-left: 10px;
+    position: absolute;
+
+
+}
+
+#espresso {
+    right: 10px;
+
+
+}
+
+#americano {
+
+    right: 100px;
+
+}
+
+#chaiLatte {
+
+    right: 200px;
+}
+
+#milchkaffee {
+    right:300px;
+}
+
+#affogato {
+    right:400px;
+}
+
+#irishCoffee {
+    right:500px;
+}
