@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Spotify open source API practice</title>
+        <link href="stylesheet.css" rel="stylesheet" >
+    </head>
+
+    <body>
+        <div class="searchContainer">
+            <h1> Spotify Search </h1>
+            <img id="logo" src="social-spotify-circle_318-25418.png.jpeg"></img>
+            <input id="userInput" type = "text"/>
+            <select id="select">
+                <option value="artist">Artist</option>
+                <option value="album">Album</option>
+            </select>
+            <button id="searchButton" type="button" name="button"> Search</button>
+        </div>
+
+        <div class = "resultContainer"></div>
+            <div id="results">
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+        <script src="spotify.js"></script>
+
+    </body>
+</html>

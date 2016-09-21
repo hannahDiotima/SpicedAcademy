@@ -1,0 +1,123 @@
+body {
+    width: 100%;
+    height: 1000px;
+    margin: 0px;
+    background-color: #e6ffe6;
+}
+
+.searchContainer {
+    width: 250px;
+    position: absolute;
+    margin-left: 200px;
+    background-color: white;
+    padding: 60px;
+}
+
+h1 {
+    font-family: monospace;
+}
+
+#logo {
+    height: 70px;
+    width: 70px;
+    margin:60px;
+    padding: 30px;
+    display: block;
+}
+
+#userInput {
+    height: 20px;
+    width: 150px;
+    margin-left: 45px;
+    border: 2px solid black;
+    font-size: 15px;
+    text-indent: 5px;
+    font-family: monospace;
+}
+
+#select {
+    height: 60px;
+    margin-left: 45px;
+    border: 2px black;
+    font-family: monospace;
+}
+
+#searchButton {
+    height: 60px;
+    width: 91px;
+    border: 0px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+
+.resultContainer {
+    margin-top: 30px;
+}
+
+#results {
+    margin-top: 100px;
+    float:left;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+}
+
+.title {
+    font-size: 15px;
+    display: inline;
+    margin-top: 10px;
+    margin-left: 15px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.listing {
+    height: 130px;
+    margin: 10px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a :hover {
+    color: #F1F2C0;
+}
+
+
+
+#noResults {
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    margin: 50px;
+}
+
+#searchHeadline {
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 440px;
+    margin-left: 200px;
+}
+
+
+
+#loadMore {
+    text-align: center;
+    margin-left: 40%;
+}

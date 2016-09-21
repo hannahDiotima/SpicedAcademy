@@ -92,3 +92,54 @@
 
 
 })();
+
+
+
+    var context = document.getElementById("canvas").getContext('2d');
+    context.strokeStyle = '#000000';
+    context.lineWidth = 4.5;
+    context.beginPath();
+    context.arc(120, 120, 100, 0, 2 * Math.PI);
+    context.stroke();
+
+    context.beginPath();
+    context.arc(118, 118, 30, 0, 2 * Math.PI);
+    context.stroke();
+
+    /*bullets*/
+
+
+    context.beginPath();
+    context.arc(118, 118, 20, 0, 2 * Math.PI);
+    context.stroke();
+
+    /*bullet1*/
+
+    context.beginPath();
+    context.arc(180, 145, 20, 0, 2 * Math.PI);
+    context.stroke();
+
+    context.beginPath();
+    context.arc(178, 85, 20, 0, 2 * Math.PI);
+    context.stroke();
+
+    /*bullet2*/
+
+    context.beginPath();
+    context.arc(58, 85, 20, 0, 2 * Math.PI);
+    context.stroke();
+
+    context.beginPath();
+    context.arc(58, 145, 20, 0, 2 * Math.PI);
+    context.stroke();
+
+
+
+    context.beginPath();
+    context.arc(118, 55, 20, 0, 2 * Math.PI);
+    context.stroke();
+
+    context.beginPath();
+    context.arc(118, 185, 20, 0, 2 * Math.PI);
+    context.stroke();
+})();
